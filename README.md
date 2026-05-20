@@ -19,25 +19,25 @@ http://13.51.169.170
 - Cloud deployment on AWS EC2
 
 ## Technologies Used
-HTML5
-CSS3
-JavaScript (Vanilla JS)
-OpenWeather API
-Git & GitHub
-AWS EC2
-Nginx Web Server
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- OpenWeather API
+- Git & GitHub
+-AWS EC2
+- Nginx Web Server
 
 
 ## Deployment
 The project is hosted on an Amazon EC2 Linux instance using Nginx as the web server. Files were deployed using SCP and managed through Linux terminal commands.
 
 # What I Learned
-Working with REST APIs
-DOM manipulation in JavaScript
-Handling asynchronous functions (fetch/async-await)
-Deploying a website on a cloud server
-Using SSH and SCP for remote file management
-Basic Linux server management
+- Working with REST APIs
+- DOM manipulation in JavaScript
+- Handling asynchronous functions (fetch/async-await)
+- Deploying a website on a cloud server
+- Using SSH and SCP for remote file management
+- Basic Linux server management
 
 # Author
 Built by Chiedza | Computer Science Student
