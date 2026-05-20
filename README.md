@@ -11,12 +11,12 @@ http://13.51.169.170
 ![Weather Dashboard Screenshot](screenshot.png)
 
 ## Features
-Search weather by city name
-Real-time API data integration
-Dynamic weather icons
-Responsive user interface
-Error handling for invalid cities
-Cloud deployment on AWS EC2
+-Search weather by city name
+-Real-time API data integration
+-Dynamic weather icons
+-Responsive user interface
+-Error handling for invalid cities
+-Cloud deployment on AWS EC2
 
 ## Technologies Used
 HTML5
