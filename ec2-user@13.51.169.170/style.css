@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    width: 350px;
+    background: rgba(255,255,255, 0.1);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px; /*adds spacing below heading*/
+
+}
+
+search-box {
+    display: flex; /*input and button line up horizontally*/
+    gap: 10px; /*spacing between flex items*/
+    margin-bottom: 20px;
+}
+
+#cityInput {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+}
+
+#searchBtn {
+    padding: 12px 18px;
+    border: none;
+    background-color: #38bdf8;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+#searchBtn:hover {
+    background-color: #0ea5e9;
+}
+
+.weather-card {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px); /*glassmorphism effect, blurs whatever is behind the card*/
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /*depth*/
+}
+
+#weatherIcon {
+    width: 100px;
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .search-box {
+        flex-direction: column;
+    }
+
+    #searchBtn {
+        width: 100%;
+    }
+}
